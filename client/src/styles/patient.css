@@ -1,0 +1,76 @@
+.main-container {
+  background-color: rgb(204, 203, 203);
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 10px;
+}
+.patient-container {
+  display: flex;
+  text-align: left;
+  padding: 10px;
+  padding-bottom: 10px;
+  opacity: 0.95;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.bioData {
+  width: 30%;
+  text-align: left;
+  border-right: 1px rgb(168, 167, 167) solid;
+}
+
+.bioData p {
+  text-align: left;
+  margin: 10px;
+}
+.bioData hr {
+  color: black;
+}
+.diagnosis {
+  width: 70%;
+}
+.prevDiagnosis {
+  overflow-y: auto;
+  overflow-x: auto;
+  height: 300px;
+  width: 100%;
+  padding-left: 10px;
+}
+.prevDiagnosis p {
+  text-align: left;
+  margin: 5px;
+}
+.currentDiagnosis {
+  width: 100%;
+  padding-left: 10px;
+}
+.currentDiagnosis p {
+  text-align: left;
+}
+.currentDiagnosis textarea {
+  height: 130px;
+  width: 90%;
+  background-color: whitesmoke;
+}
+.currentDiagnosis textarea:focus {
+  outline: none;
+}
+.saveBtn,
+.logoutBtn,
+.backBtn {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 8px;
+  width: 70px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}

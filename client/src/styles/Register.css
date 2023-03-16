@@ -1,0 +1,75 @@
+.container {
+  background-color: rgb(204, 203, 203);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-bottom: 10px;
+  opacity: 0.95;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.secureHealthBtn {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 10px;
+  box-shadow: 0 2px 3px 0 lightblue;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.container p {
+  padding: 10px;
+  text-align: center;
+}
+.input-holder {
+  background-color: rgb(175, 173, 173);
+  margin-bottom: 5px;
+  width: 60%;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-holder input {
+  margin-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border: none;
+  width: 90%;
+  text-align: center;
+  padding: 5px 0 5px 0;
+  background-color: rgb(219, 218, 218);
+}
+.input-holder input:focus {
+  outline: none;
+}
+.signup-btn {
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 8px;
+  width: 70px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.login-btn {
+  background-color: rgb(204, 203, 203);
+  border: none;
+  color: blue;
+  cursor: pointer;
+  border-bottom: 1px blue solid;
+}
+
+.login-btn:hover {
+  background-color: rgb(204, 203, 203);
+}
+.login-btn a {
+  text-decoration: none;
+  color: blue;
+}

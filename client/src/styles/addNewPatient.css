@@ -1,0 +1,24 @@
+.container {
+  opacity: 0.95;
+}
+.submitBtn {
+  margin-left: 5px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 8px;
+  width: 130px;
+  cursor: pointer;
+}
+.btnHolder {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: flex;
+}
+.failedMsg {
+  color: red;
+  margin: 0;
+}

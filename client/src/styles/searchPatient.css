@@ -1,0 +1,57 @@
+body {
+  margin-top: 50px;
+}
+.container {
+  padding-bottom: 60px;
+  opacity: 0.95;
+}
+.inputHolder input {
+  margin-left: 10px;
+  border: none;
+  width: 90%;
+  padding: 5px 0 5px 0;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: bold;
+  background-color: rgb(219, 218, 218);
+}
+.inputHolder input:focus {
+  outline: none;
+}
+.searchBtn {
+  background-color: rgb(219, 218, 218);
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 8px;
+  width: 70px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.addPatient {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 15px;
+  color: blue;
+  padding: 8px;
+  width: 130px;
+  cursor: pointer;
+}
+.invalidCode {
+  color: red;
+  margin: 0;
+}
+button:hover {
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+}
