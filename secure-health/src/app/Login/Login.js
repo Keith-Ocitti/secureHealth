@@ -24,7 +24,7 @@ export default function Login() {
             <input type="text" placeholder="Doctor's ID" />
             <br />
             <label>Password</label>
-            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="password" />
             <br />
             <button>Login</button>
           </div>
