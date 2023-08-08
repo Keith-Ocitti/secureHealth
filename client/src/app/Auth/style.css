@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: whitesmoke;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .login-container {
   width: 80%;
   margin-left: auto;
@@ -15,7 +6,6 @@ body {
   background-color: white;
   margin-top: 80px;
   height: 450px;
-  border-radius: 10px;
   box-shadow: 1px 1px 0.5px 0.5px rgb(191, 190, 190);
 }
 .img-container {
@@ -25,8 +15,6 @@ body {
 .img {
   width: 100%;
   height: 450px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 .input-holder {
   width: 50%;
@@ -40,22 +28,26 @@ body {
   margin-right: auto;
   text-align: center;
 }
-.div2 > input {
+.login-input,
+.signup-input {
   width: 100%;
   outline: 0;
   padding: 5px;
+  padding-top: 2px;
   border: none;
   border-bottom: 1px grey solid;
 }
-.div2 {
+.div2,
+.signup-container {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   width: 60%;
 }
-.div2 > button {
+.login-btn,
+.signup-btn {
   margin-left: auto;
   margin-right: auto;
   border: 1px rgb(82, 82, 252) solid;
@@ -63,17 +55,21 @@ body {
   font-weight: 600;
   background-color: rgb(82, 82, 252);
   color: white;
+  margin-top: 10px;
 }
 
-.div2 > button:hover {
+.login-btn:hover,
+.signup-btn:hover {
   cursor: pointer;
   background-color: white;
   color: rgb(82, 82, 252);
   border: 1px rgb(82, 82, 252) solid;
 }
-.div2 > label {
+.div2,
+.signup-container > label {
   text-align: center;
   font-weight: 500;
+  margin-top: 10px;
 }
 .login-icon {
   color: black;
@@ -81,4 +77,24 @@ body {
   width: 100%;
   font-weight: lighter;
   font-size: 70px;
+}
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+}
+.signup-link > span {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.loggedErrorMsg {
+  color: red;
+  text-align: center;
+  /* margin-left: 100px; */
+}
+#forgot-pass {
+  color: blue;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
 }

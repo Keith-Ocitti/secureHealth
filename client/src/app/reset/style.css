@@ -1,0 +1,62 @@
+:root {
+  --blue: rgb(82, 82, 252);
+}
+body {
+  background-color: whitesmoke;
+}
+
+.reset-container {
+  background-color: white;
+  width: 60%;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.send-code-div,
+.phone,
+.otp-div,
+.reset-details {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  height: 200px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.input {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 8px;
+  text-align: center;
+  outline: 0;
+  border: none;
+  border-bottom: 1px black solid;
+}
+.btn {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  border-radius: 18px;
+  border: none;
+  color: white;
+  background-color: var(--blue);
+  border: 2px var(--blue) solid;
+  margin-top: 5px;
+}
+.btn:hover {
+  background-color: white;
+  cursor: pointer;
+  color: var(--blue);
+}
+.reset-btn {
+  width: 150px;
+}
