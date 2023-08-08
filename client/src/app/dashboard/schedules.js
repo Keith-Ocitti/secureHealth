@@ -29,7 +29,6 @@ export default function Schedules({ patient }) {
       })
       .catch((err) => console.log(err));
   };
-  // console.log(patient);
 
   const [schedule, setSchedule] = useState([]);
   console.log(schedule);
@@ -43,7 +42,6 @@ export default function Schedules({ patient }) {
     });
   };
   let email = sessionStorage.getItem("email");
-  // console.log(email);
 
   const getSchedules = () => {
     const token = sessionStorage.getItem("token");
